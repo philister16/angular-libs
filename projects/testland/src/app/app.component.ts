@@ -13,10 +13,15 @@ export class AppComponent {
     vertical: 'bottom',
     delay: 6000
   };
+  isLoading = false;
 
   constructor(private flash: NgFlashService) { }
 
   launch() {
     this.flash.success('Yay it worked!');
+  }
+
+  toggleLoader() {
+    this.isLoading = !this.isLoading;
   }
 }

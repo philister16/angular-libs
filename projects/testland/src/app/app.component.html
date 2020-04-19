@@ -1,2 +1,11 @@
-<h1>My Component</h1>
-<button (click)="launch()">Launch an alert</button>
+<main>
+    <h1>Angular Libs</h1>
+    <p>Various little libraries for everyday use in Angular.</p>
+    <hr>
+    <h2>ng-flash</h2>
+    <p>Service to show flash messages to the user.</p>
+    <button (click)="launch()">Launch an alert</button>
+    <h2>ng-loading-button</h2>
+    <p>Button that can have a loading state without losing its inintial dimensions.</p>
+    <lib-ng-loading-button [loader]="isLoading" (click)="toggleLoader()">Loading</lib-ng-loading-button>
+</main>

@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NgFlashModule } from 'ng-flash';
+import { NgLoadingButtonModule } from 'projects/ng-loading-button/src/public-api';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { NgFlashModule } from 'ng-flash';
   ],
   imports: [
     BrowserModule,
-    NgFlashModule
+    NgFlashModule,
+    NgLoadingButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

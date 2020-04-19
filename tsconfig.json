@@ -19,6 +19,10 @@
       "ng-flash": [
         "dist/ng-flash/ng-flash",
         "dist/ng-flash"
+      ],
+      "ng-loading-button": [
+        "dist/ng-loading-button/ng-loading-button",
+        "dist/ng-loading-button"
       ]
     }
   },

@@ -2,7 +2,7 @@
 
 A simple library to display flash messages (also called "snackbars" for example by the Angular Material library).
 
-[Gif Example](./example.gif)
+![Gif Example](./example.gif)
 
 There are plenty of notification libraries out there. The goal of this one is to be as barebones as possible and do everything the "Angular way". It is different from most other Angular notification libraries as it doesn't need you to place a component somewhere in your templates. Instead you can just launch flash messages from a single service that will dynamically add the necessary component to the app and remove it again. It mirrors the approach of the Angular Material library for its snackbar or dialog components but follows bootstrap's design esthetics.
 

@@ -1,6 +1,18 @@
 {
   "name": "ng-flash",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "author": "philister16 (https://github.com/philister16)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philister16/angular-libs/tree/master/projects/ng-flash"
+  },
+  "keywords": [
+    "angular",
+    "notifications",
+    "alerts",
+    "flash messages"
+  ],
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^9.0.7",
     "@angular/core": "^9.0.7",

@@ -1,0 +1,57 @@
+.fl-wrapper {
+    position: absolute;
+    display: inline-block;
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 6px -3px rgba(0,0,0,0.7);
+    color: rgba(255, 255, 255, 0.87);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: default;
+    z-index: 1000;
+}
+
+.fl-inner {
+    max-width: 360px;
+}
+
+.fl-type-info {
+    //background-color: #17a2b8;
+    background-color: rgba(23,162,184, 0.87);
+}
+
+.fl-type-danger {
+    //background-color: #dc3545;
+    background-color: rgba(220,53,69, 0.87);
+}
+
+.fl-type-warning {
+    //background-color: #ffc107;
+    background-color: rgba(255,193,7, 0.87);
+}
+
+.fl-type-success {
+    //background-color: #28a745;
+    background-color: rgba(40,167,69, 0.87);
+}
+
+.fl-vertical-top {
+    top: 16px;
+}
+
+.fl-vertical-bottom {
+    bottom: 16px;
+}
+
+.fl-horizontal-right {
+    right: 16px;
+}
+
+.fl-horizontal-left {
+    left: 16px;
+}
+
+.fl-horizontal-center {
+left: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%)
+}
